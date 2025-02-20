@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Feynman Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #f4f4f4;
+            transition: background 0.3s ease;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            z-index: 1000;
+        }
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links li {
+            display: inline;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover {
+            color: #ff6f61;
+        }
+        .hero {
+            background: url('https://ibb.co/7d9GQrhZ') no-repeat center center/cover;
+            color: rgb(0, 0, 0);
+            padding: 150px 20px;
+            margin-top: 60px;
+        }
+        .btn {
+            background: #ff6f61;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #e65c50;
+        }
+        .content {
+            padding: 50px 20px;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .content:hover {
+            transform: scale(1.02);
+        }
+        .footer {
+            background: #222;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">The Feynman Project</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    
+    <section class="hero">
+
+        <h2>Join a community of innovators and world changers.</h2>
+        <a href="https://forms.gle/XDP7PNbHSxAjnFys5"><button class="btn" id="applyBtn">Apply Now</button></a>
+
+    </section>
+
+    <section id="about" class="content">
+        <h2>About Us</h2>
+        <h4>At The Feynman Project, we believe that the future belongs to those who dare to innovate. Founded by students, for students, our platform is a global hub for ambitious minds passionate about STEM and Finance.
+
+            Our mission is simple: empower students worldwide by providing a space to explore, discuss, and shape the latest trends and developments in science, technology, engineering, mathematics, and finance.
+            
+            We bring together a diverse community of thinkers, problem-solvers, and future leaders who are eager to collaborate, exchange ideas, and challenge conventional wisdom. Whether it's exploring emerging technologies, analyzing financial markets, or developing groundbreaking solutions, our community thrives on curiosity and innovation.
+            
+            Join us, and be part of a movement that is shaping the future—one discussion, one idea, and one breakthrough at a time.</h4>
+            <a href="https://forms.gle/XDP7PNbHSxAjnFys5"><button class="btn" id="applyBtn">Apply Now</button></a>
+    </section>
+
+    
+
+    <section id="programs" class="content">
+        <h2>Our Programs</h2>
+        <h4>Explore cutting-edge programs designed to challenge and inspire future leaders in STEM and finance.</h4>
+        <h3>Quant Finance</h3> 
+        <p>Aspiring students in quantitative finance are stepping into a highly technical and intellectually demanding field that blends mathematics, programming, and finance. As the financial industry becomes more data-driven, quants play a crucial role in developing trading algorithms, risk models, and pricing strategies</p>
+        <h3>Cryptocurrency, Blockchain and Web3</h3> 
+        <p>Aspiring students in cryptocurrency, blockchain, and Web3 are diving into a fast-growing, disruptive field that merges technology, finance, and decentralized applications (dApps). This sector is reshaping traditional industries, offering new opportunities in decentralized finance (DeFi), NFTs, smart contracts, and more.</p>
+        <h3>Stocks, Futures, Options and Commodities</h3> 
+        <p>Aspiring students in stocks, futures, options, and commodities are entering a dynamic world of trading, risk management, and financial markets. Mastering these areas requires a mix of technical analysis, fundamental research, market psychology, and risk management.</p>
+        <h3>Artificial Intelligence and Machine Learning</h3>
+        <p>Aspiring students in Artificial Intelligence (AI) and Machine Learning (ML) are entering a rapidly growing field that is transforming industries such as finance, healthcare, robotics, and cybersecurity. AI and ML involve teaching machines to learn from data, recognize patterns, and make intelligent decisions without human intervention.</p>
+        <h3>Robotics</h3>
+        <p>Aspiring students in robotics are stepping into an interdisciplinary field that combines mechanical engineering, electronics, computer science, and artificial intelligence to design and build intelligent machines. Robotics plays a crucial role in automation, healthcare, space exploration, manufacturing, and even finance (robo-advisors).</p> 
+        <h3>Circuits and Electronics</h3>
+        <p>Aspiring students in circuits and electronics are entering a foundational field of engineering that powers everything from smartphones and computers to medical devices and space technology. Understanding how electronic components work and interact is essential for careers in embedded systems, IoT, robotics, and hardware design.</p>
+
+        
+    </section>
+
+    <section id="contact" class="content">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us at thefeynmanproject1@gmail.com and become a part of the community.</p>
+        
+    </section>
+
+    <footer class="footer">
+       
+    </footer>
+
+    <script>
+       document.addEventListener("DOMContentLoaded", () => {
+    document.querySelector(".btn").addEventListener("click", () => {
+        
+    });
+
+    document.querySelector(".logo").addEventListener("click", () => {
+        alert("Welcome to The Feynman Project!");
+    });
+
+    window.addEventListener("scroll", () => {
+        let header = document.querySelector("header");
+        if (window.scrollY > 50) {
+            header.style.background = "#222";
+        } else {
+            header.style.background = "#333";
+        }
+    });
+});
+
+    </script>
+</body>
+</html>
