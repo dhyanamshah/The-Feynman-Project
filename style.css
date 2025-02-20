@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #f4f4f4;
+    transition: background 0.3s ease;
+}
+header {
+    background: #333;
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+    transition: background 0.3s ease;
+}
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links li {
+    display: inline;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+.nav-links a:hover {
+    color: #ff6f61;
+}
+.hero {
+    background: url('https://source.unsplash.com/random/1600x900') no-repeat center center/cover;
+    color: white;
+    padding: 150px 20px;
+    margin-top: 60px;
+}
+.btn {
+    background: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.btn:hover {
+    background: #e65c50;
+}
+.content {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+.content:hover {
+    transform: scale(1.02);
+}
+.footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
